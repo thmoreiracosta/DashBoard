@@ -2,8 +2,8 @@
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 
-import { Layout } from "./components/layout/Layout";
-import { Dashboard } from "./components/dashboard/Dashboard";
+import { Layout } from "./scenes/layout/Layout";
+import { Dashboard } from "./scenes/dashboard/Dashboard";
 
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
